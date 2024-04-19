@@ -1,0 +1,28 @@
+
+.howtobuy__heading h2 {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.howtobuy {
+    display: flex;
+}
+
+.column {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.howtobuy__heading-image {
+    max-width: 500px;
+}
+
+.howtobuy__heading-image img {
+    width: 100%;
+}
+
+.howtobuy__steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

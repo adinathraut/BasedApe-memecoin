@@ -1,0 +1,47 @@
+.header__navbar {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-family: var(--wix-madefor);
+  }
+  
+  .header__head {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    font-weight: 700;
+  }
+  
+  .header__logo {
+    width: 70px;
+  }
+  
+  .header__logo img {
+    width: 100%;
+    filter: drop-shadow(0 0 1rem crimson);
+    animation: rotation 6s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .header__menu {
+    margin: auto 0;
+  }
+  
+  .header__menu ul {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .header__menu li {
+    list-style-type: none;
+  }
+  

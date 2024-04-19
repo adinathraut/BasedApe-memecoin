@@ -1,0 +1,32 @@
+.tokenomics h2 {
+    text-align: center;
+}
+
+.tokenomics img {
+    display: inline-block;
+}
+
+.tokenomics__content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tokenomics__column {
+    flex-basis: 200px;
+}
+
+.tokenomics__info {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 150px;
+    border: 2px solid crimson;
+    box-shadow: 0 0 10px 0 crimson;
+}
+
+.tokenomics__info:hover {
+    color: crimson;
+    border-color: aliceblue;
+    box-shadow: 0 0 10px 0 var(--highlight-color);
+}

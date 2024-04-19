@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Wix+Madefor+Text:wght@600&display=swap');
+
+
+@import url("normalize.css");
+@import url("header.css");
+@import url("hero.css");
+@import url("whatis.css");
+@import url("howtobuy.css");
+@import url("tokenomics.css");
+@import url("moonmap.css");
+@import url("footer.css");
+@import url("mediaqueries.css");
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    color: #F6F1E9;
+    background-color: #0b0123;
+}
+
+:root {
+    --wix-madefor: 'Wix Madefor Text', sans-serif;
+    --dosis: 'Dosis', sans-serif;
+
+    --info-color: #2C2346;
+
+    --heading-orange: #D55F46;
+    --heading-pink: #D432A3;
+    --heading-seahorse: #48C7B8;
+
+    --highlight-color: #00FECE;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    font-family: var(--wix-madefor);
+}
+
+p, li {
+    font-family: var(--dosis);
+}
+
+
+section {
+    padding-bottom: 5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+
+h1, h2 {
+    text-shadow: 0 0 5px var(--highlight-color);
+}
+
+img {
+    filter: drop-shadow(0 0 10px crimson);
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.heading__orange {
+    color: var(--heading-orange);
+}
+
+.heading__pink {
+    color: var(--heading-pink);
+}
+
+.heading__seahorse {
+    color: var(--heading-seahorse);
+}
+
+.highlight__color {
+    color: var(--highlight-color);
+}

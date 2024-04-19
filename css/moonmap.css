@@ -1,0 +1,57 @@
+.moonmap h2, .moonmap h3{
+    text-align: center;
+  }
+  
+  .moonmap__image {
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  .moonmap__image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .moonmap__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+  }
+  
+  .moonmap__section-phase {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-width: 150px;
+    max-width: 250px;
+    padding: 20px;
+    background-color: #0051ff4a;
+    filter: drop-shadow(0 0 1rem#23008595);
+    border-radius: 15px;
+    margin: 20px;
+  }
+  
+  .moonmap ul {
+    padding: 0;
+  }
+  
+  .moonmap li {
+      position: relative;
+      list-style-type: none;
+      padding-left: 20px;
+      line-height: 1.2;
+      margin: 20px 0;
+  }
+  
+  .moonmap li::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url("/assets/check-mark.png");
+      background-size: cover;
+      width: 20px; /* Set the desired width */
+      height: 20px; /* Set the desired height */
+  }
